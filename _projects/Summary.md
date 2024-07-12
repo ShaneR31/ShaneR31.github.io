@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Credit Card Fraud Detection
-description: another project with an image 🎉
+description: Developed a machine learning model to detect fraudulent transactions, inspired by the need for enhanced financial security.
 img: assets/img/6.jpg
 importance: 4
-category: fun
+category: 
 ---
 
 ## Credit Card Fraud Detection Project Summary

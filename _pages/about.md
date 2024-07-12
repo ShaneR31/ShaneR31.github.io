@@ -2,22 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Welcome to my personal blog and portfolio site!
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-
+    <p>Based in rainy Seattle, WA 🌧️</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a master's student at the Johns Hopkins Whiting School of Engineering, specializing in Information Systems Engineering. Previously, I worked as an Analyst with Deloitte's Cyber and Strategic Risk practice. Now, I am seeking full-time roles in data analytics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My experience includes analyzing data from client Privileged Access Management (PAM) software using Python, automating error-prone manual tasks, and executing various ad hoc scripting assignments. I have also contributed to various internal initiatives, designing content based on technical research papers and analyzing use cases for advanced behavior analytics tools in client security suites.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of my professional pursuits, I enjoy learning new tools, playing chess, and reading. Currently, I am immersed in the original Dune franchise by Frank Herbert.
