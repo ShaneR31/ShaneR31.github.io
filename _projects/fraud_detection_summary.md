@@ -9,6 +9,7 @@ category:
 <style>
     .header-image {
         max-width: 90%;
+        align: center;
     }
 
     .caption {
@@ -47,17 +48,15 @@ category:
     }
 </style>
 
-## Summary
-
-In this project, we developed a robust fraud detection model to identify fraudulent transactions within a highly imbalanced dataset. The primary goal was to enhance security and reliability for financial transactions by accurately distinguishing between genuine and fraudulent activities. This summary provides an overview of the project's key features, methodologies, and practical implications. The full notebook and analysis is available [here](assets/pdf/creditCardFraud.pdf).
-
-
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0 header-image">
         {% include figure.liquid loading="eager" path="assets/img/fraud_detection/atm.jpg" title="ATM" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>ATM used for Credit Card Fraud Detection Project:</strong> Highlights the use of ATMs in the fraud detection project.</div>
     </div>
 </div>
+
+## Summary
+
+In this project, we developed a robust fraud detection model to identify fraudulent transactions within a highly imbalanced dataset. The primary goal was to enhance security and reliability for financial transactions by accurately distinguishing between genuine and fraudulent activities. This summary provides an overview of the project's key features, methodologies, and practical implications. The full notebook and analysis with larger visualizations is available [here](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html).
 
 ### Key Features
 
@@ -89,7 +88,7 @@ In this project, we developed a robust fraud detection model to identify fraudul
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fraud_detection/classDistribution.png" title="Class Distribution" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>Class Distribution:</strong> Highlights the severe class imbalance with fraudulent transactions being a very small fraction of the total transactions, underscoring the need for techniques like SMOTE.</div>
+        <div class="caption"><strong>Class Distribution:</strong> Highlights the severe class imbalance with fraudulent transactions being a very small fraction of the total transactions, underscoring the need for rebalancing techniques like SMOTE.</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/fraud_detection/timeDistribution.png" title="Time Feature Distribution" class="img-fluid rounded z-depth-1" %}
@@ -100,7 +99,7 @@ In this project, we developed a robust fraud detection model to identify fraudul
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/logamountDistribution.png" title="LogAmount Distribution" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>LogAmount Distribution:</strong> Distribution of log-transformed transaction amounts.</div>
+        <div class="caption"><strong>LogAmount Distribution:</strong> Distribution of log-transformed transaction amounts. A minority of extremely high value transactions contributed to a significant skew in the untransformed data.</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/pairplot.png" title="Pairplot" class="img-fluid rounded z-depth-1" %}
@@ -117,7 +116,7 @@ In this project, we developed a robust fraud detection model to identify fraudul
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/roc.png" title="ROC Curves" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>ROC Curves:</strong> Shows the model's performance in distinguishing between fraudulent and non-fraudulent transactions, with Random Forest and XGBoost achieving the highest AUC.</div>
+        <div class="caption"><strong>ROC Curves:</strong> Shows the performance of each model in distinguishing between fraudulent and non-fraudulent transactions, with Random Forest and XGBoost achieving the highest AUC.</div>
     </div>
 </div>
 
@@ -197,6 +196,6 @@ Random Forest was chosen as the final model due to its superior performance acro
 
 ### Links
 
-- [Full Notebook and Analysis](https://shanereichlin.com/fraud-detection/full-notebook)
+- [Full Notebook and Analysis](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html)
 - [GitHub Repository](https://github.com/ShaneR31/credit-card-fraud-detection)
 
