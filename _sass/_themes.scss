@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 
-:root {
+ :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -35,6 +35,12 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --global-table-header-bg-color: #f2f2f2;
+  --global-table-header-text-color: #000000;
+  --global-table-row-even-bg-color: #ffffff;
+  --global-table-row-odd-bg-color: #f9f9f9;
+  --global-table-border-color: #dddddd;
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -64,6 +70,35 @@
     height: $back-to-top-height;
     width: $back-to-top-width;
     z-index: $back-to-top-z-index;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid var(--global-table-border-color);
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: var(--global-table-header-bg-color);
+    color: var(--global-table-header-text-color);
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--global-table-row-even-bg-color);
+  }
+
+  tr:nth-child(odd) {
+    background-color: var(--global-table-row-odd-bg-color);
+  }
+
+  td {
+    color: var(--global-text-color);
   }
 }
 
@@ -99,11 +134,46 @@ html[data-theme="dark"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --global-table-header-bg-color: #333;
+  --global-table-header-text-color: #ffffff;
+  --global-table-row-even-bg-color: #444;
+  --global-table-row-odd-bg-color: #555;
+  --global-table-border-color: #666;
+
   .repo-img-light {
     display: none;
   }
   .repo-img-dark {
     display: block;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid var(--global-table-border-color);
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: var(--global-table-header-bg-color);
+    color: var(--global-table-header-text-color);
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--global-table-row-even-bg-color);
+  }
+
+  tr:nth-child(odd) {
+    background-color: var(--global-table-row-odd-bg-color);
+  }
+
+  td {
+    color: var(--global-text-color);
   }
 }
 
@@ -143,3 +213,4 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
