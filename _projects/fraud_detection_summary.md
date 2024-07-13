@@ -16,6 +16,35 @@ category:
         font-size: 14px;
         margin-top: 5px;
     }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid var(--global-divider-color);
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: var(--global-theme-color);
+        color: var(--global-hover-text-color);
+    }
+
+    tr:nth-child(even) {
+        background-color: var(--global-card-bg-color);
+    }
+
+    tr:nth-child(odd) {
+        background-color: var(--global-bg-color);
+    }
+
+    td {
+        color: var(--global-text-color);
+    }
 </style>
 
 ## Summary
