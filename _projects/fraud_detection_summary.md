@@ -56,7 +56,7 @@ category:
 
 ## Summary
 
-In this project, we developed a robust fraud detection model to identify fraudulent transactions within a highly imbalanced dataset. The primary goal was to enhance security and reliability for financial transactions by accurately distinguishing between genuine and fraudulent activities. This summary provides an overview of the project's key features, methodologies, and practical implications. The full notebook and analysis with larger visualizations is available [here](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html).
+In this project, we developed a robust fraud detection model to identify fraudulent transactions within a highly imbalanced dataset. The primary goal was to enhance security and reliability for financial transactions by accurately distinguishing between genuine and fraudulent activities. This summary provides an overview of the project's key features, methodologies, and practical implications. The full notebook and analysis with larger visualizations is available [here](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html){:target="_blank"}.
 
 ### Key Features
 
@@ -181,6 +181,6 @@ XGBoost was chosen as the final model due to its outstanding performance across 
 
 ### Links
 
-- [Full Notebook and Analysis](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html)
+- [Full Notebook and Analysis](https://shaner31.github.io/credit-card-fraud-detection/Docs/fraud-detection.html){:target="_blank"}
 - [GitHub Repository](https://github.com/ShaneR31/credit-card-fraud-detection)
 
