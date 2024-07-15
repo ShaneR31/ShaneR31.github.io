@@ -161,12 +161,16 @@ In this project, we developed a robust fraud detection model to identify fraudul
 
 ### Final Model: XGBoost
 
-XGBoost was chosen as the final model due to its superior performance across all evaluation metrics. It achieved the highest balance of precision and recall, with an excellent Precision-Recall AUC of 0.89, indicating its strong ability to distinguish between fraudulent and non-fraudulent transactions. Additionally, the XGBoost classifier had the best F1 score, reflecting its effectiveness in correctly identifying both fraudulent transactions (high recall) and minimizing false positives (high precision).
+XGBoost was chosen as the final model due to its outstanding performance across all evaluation metrics. It achieved the highest balance of precision and recall, evidenced by an excellent Precision-Recall AUC of 0.89, which indicates its strong capability to differentiate between fraudulent and non-fraudulent transactions. Additionally, the XGBoost model achieved the best F1 score, demonstrating its effectiveness in accurately identifying fraudulent transactions (high recall) while minimizing false positives (high precision). Furthermore, XGBoost had a significantly shorter training time compared to other models, making it not only effective but also efficient and practical for real-world applications.
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/confusionMatrix.png" title="Random Forest Confusion Matrix" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><strong>Confusion Matrix:</strong> The Random Forest model effectively minimizes false positives and false negatives while capturing many fraudulent transactions.</div>
+    </div>
+        <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/featureImportance" title="Feature Importance" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"><strong>Feature Importance:</strong> Shows the most important features used by the XGBoost model to make predictions.</div>
     </div>
 </div>
 
