@@ -70,16 +70,16 @@ In this project, we developed a robust fraud detection model to identify fraudul
   - Identified key patterns differentiating fraudulent from non-fraudulent transactions.
 
 - **Model Selection and Hyperparameter Tuning**:
-  - Evaluated Logistic Regression, Random Forest, Gradient Boosting, and XGBoost models.
-  - Performed hyperparameter tuning with GridSearchCV, optimizing for the ROC AUC score.
+  - Evaluated basic Logistic Regression, Random Forest, Gradient Boosting, and XGBoost models.
+  - Performed hyperparameter tuning with GridSearchCV on Random Forest and XGBoost models, optimizing for average precision.
 
 - **Model Performance Evaluation**:
-  - Compared models using metrics such as ROC AUC, precision-recall curves, and F1-score.
-  - Selected **Random Forest** as the final model due to its superior balance of precision and recall, achieving an excellent AUC of 0.98 and the best F1 score. This choice ensures the model's high accuracy and reliability in detecting fraudulent transactions.
+  - Compared models using metrics such as Precision-Recall AUC, ROC AUC, and F1-score.
+  - Selected **XGBoost** as the final model due to its superior balance of precision and recall, achieving a Precision-Recall AUC of 0.89 and the best F1 score among tuned models. This choice ensures the model's high accuracy and reliability in detecting fraudulent transactions.
 
 ### Practical Implications
 
-- **High Accuracy and Reliability**: The Random Forest model is highly effective in detecting fraudulent transactions, ensuring genuine transactions are processed smoothly.
+- **High Accuracy and Reliability**: The XGBoost classifier is highly effective in detecting fraudulent transactions, ensuring genuine transactions are processed smoothly.
 - **Customer Confidence**: Provides a reliable system, minimizing interruptions to legitimate transactions.
 - **Continuous Improvement**: Emphasizes ongoing monitoring and enhancement to adapt to new fraud patterns.
 
@@ -107,16 +107,16 @@ In this project, we developed a robust fraud detection model to identify fraudul
     </div>
 </div>
 
-### Model Performance
+### Tuned Model Performance
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/precisionRecall.png" title="Precision-Recall Curves" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>Precision-Recall Curves:</strong> Demonstrates the model's ability to balance precision and recall, with Random Forest and XGBoost narrowly performing the best after tuning.</div>
+        <div class="caption"><strong>Precision-Recall Curves:</strong> Demonstrates the model's ability to balance precision and recall, with XGBoost performing the best after tuning.</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/roc.png" title="ROC Curves" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>ROC Curves:</strong> Shows the performance of each model in distinguishing between fraudulent and non-fraudulent transactions, with Random Forest and XGBoost achieving the highest AUC.</div>
+        <div class="caption"><strong>ROC Curves:</strong> Shows the performance of each model in distinguishing between fraudulent and non-fraudulent transactions, with XGBoost achieving the highest AUC.</div>
     </div>
 </div>
 
@@ -129,6 +129,7 @@ In this project, we developed a robust fraud detection model to identify fraudul
             <th>Training Time (s)</th>
             <th>ROC AUC</th>
             <th>Average Precision</th>
+            <th>PRC AUC</th>
             <th>Precision</th>
             <th>Recall</th>
             <th>F1-score</th>
@@ -136,53 +137,33 @@ In this project, we developed a robust fraud detection model to identify fraudul
     </thead>
     <tbody>
         <tr>
-            <td>Logistic Regression</td>
-            <td>3.49</td>
-            <td>0.97</td>
-            <td>0.72</td>
-            <td>0.06</td>
-            <td>0.92</td>
-            <td>0.11</td>
-        </tr>
-        <tr>
             <td>Random Forest</td>
-            <td>225.78</td>
-            <td>0.98</td>
-            <td>0.87</td>
-            <td>0.87</td>
-            <td>0.84</td>
+            <td>488.24</td>
+            <td>0.97</td>
+            <td>0.86</td>
+            <td>0.86</td>
+            <td>0.73</td>
             <td>0.85</td>
-        </tr>
-        <tr>
-            <td>Gradient Boosting</td>
-            <td>414.15</td>
-            <td>0.96</td>
-            <td>0.77</td>
-            <td>0.10</td>
-            <td>0.91</td>
-            <td>0.18</td>
+            <td>0.79</td>
         </tr>
         <tr>
             <td>XGBoost</td>
-            <td>1.99</td>
+            <td>3.72</td>
             <td>0.98</td>
-            <td>0.84</td>
-            <td>0.69</td>
+            <td>0.89</td>
+            <td>0.89</td>
+            <td>0.78</td>
             <td>0.88</td>
-            <td>0.77</td>
+            <td>0.83</td>
         </tr>
     </tbody>
 </table>
 
-### Final Model: Random Forest
+### Final Model: XGBoost
 
-Random Forest was chosen as the final model due to its superior performance across multiple evaluation metrics. It achieved the highest balance of precision and recall, with an excellent AUC of 0.98, indicating its strong ability to distinguish between fraudulent and non-fraudulent transactions. Additionally, the Random Forest model had the best F1 score, reflecting its effectiveness in correctly identifying both fraudulent transactions (high recall) and minimizing false positives (high precision).
+XGBoost was chosen as the final model due to its superior performance across all evaluation metrics. It achieved the highest balance of precision and recall, with an excellent Precision-Recall AUC of 0.89, indicating its strong ability to distinguish between fraudulent and non-fraudulent transactions. Additionally, the XGBoost classifier had the best F1 score, reflecting its effectiveness in correctly identifying both fraudulent transactions (high recall) and minimizing false positives (high precision).
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/featureImportance.png" title="Feature Importance" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><strong>Feature Importance:</strong> Shows the most important features used by the Random Forest model.</div>
-    </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="../assets/img/fraud_detection/confusionMatrix.png" title="Random Forest Confusion Matrix" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><strong>Confusion Matrix:</strong> The Random Forest model effectively minimizes false positives and false negatives while capturing many fraudulent transactions.</div>
