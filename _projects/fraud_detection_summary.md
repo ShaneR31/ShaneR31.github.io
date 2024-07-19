@@ -9,7 +9,8 @@ category:
 <style>
     .header-image {
         max-width: 90%;
-        align: center;
+        margin: 0 auto;
+        display: block;
     }
 
     .caption {
