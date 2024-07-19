@@ -142,11 +142,19 @@
   "projects": [
     {
       "name": "Credit Card Fraud Detection",
-      "summary": "Developed a machine learning model to detect fraudulent transactions, inspired by the need for enhanced financial security. The project included data preprocessing, exploratory analysis, and model evaluation, resulting in a robust and reliable system that effectively identifies and prevents fraud.",
-      "highlights": ["Machine Learning", "Fraud Detection", "Model Tuning"],
+      "summary": "Developed a robust fraud detection model using XGBoost, which achieved high precision and recall in identifying fraudulent transactions. Leveraged advanced machine learning techniques and data preprocessing to ensure efficient and accurate fraud detection.",
+      "highlights": ["Python", "Machine Learning", "Scikit-learn", "XGBoost", "Model Tuning"],
       "startDate": "2024-04-01",
       "endDate": "2024-05-15",
-      "url": ""
+      "url": "https://shanereichlin.com/projects/fraud_detection_summary/"
+    },
+    {
+      "name": "Digital Marketing Conversion Analysis",
+      "summary": "Conducted a comprehensive analysis of digital marketing campaign data using XGBoost and K-Means clustering to optimize customer conversion strategies. Achieved high model performance through advanced feature engineering and hyperparameter tuning, providing actionable insights for targeted marketing.",
+      "highlights": ["Python", "Machine Learning", "Marketing Analytics", "XGBoost", "K-Means Clustering", "Feature Engineering"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-02-15",
+      "url": "https://shanereichlin.com/projects/digital_marketing_campaign_analysis/"
     }
   ]
 }
