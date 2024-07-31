@@ -1,11 +1,4 @@
----
-layout: page
-title: Digital Marketing Analysis
-description: Discover how data-driven marketing strategies can enhance customer conversion and engagement. Explore our comprehensive analysis, model predictions, and customer segmentation.
-img: assets/img/marketing_analysis/title.jpg
-importance: 6
-category: 
----
+
 <style>
     .header-image {
         max-width: 90%;
