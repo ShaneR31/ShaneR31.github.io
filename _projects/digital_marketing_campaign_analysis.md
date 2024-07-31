@@ -50,7 +50,7 @@ category:
 </style>
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0 header-image" style="max-width: 112.5%;">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/marketing_analysis/title.jpg" title="Digital Marketing Campaign Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

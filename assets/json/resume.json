@@ -141,6 +141,14 @@
   ],
   "projects": [
     {
+      "name": "Consumer Segmentation Analysis",
+      "summary": "Conducted an in-depth customer segmentation analysis using clustering techniques to identify distinct customer groups based on purchasing behaviors and demographics. Developed detailed profiles for each segment to inform targeted marketing strategies and enhance customer engagement.",
+      "highlights": ["Python", "Machine Learning", "K-Means Clustering", "Marketing Analytics", "Data Visualization"],
+      "startDate": "2024-06-01",
+      "endDate": "2024-06-15",
+      "url": "https://shanereichlin.com/projects/customer_segmentation/"
+    },
+    {
       "name": "Credit Card Fraud Detection",
       "summary": "Developed a robust fraud detection model using XGBoost, which achieved high precision and recall in identifying fraudulent transactions. Leveraged advanced machine learning techniques and data preprocessing to ensure efficient and accurate fraud detection.",
       "highlights": ["Python", "Machine Learning", "Scikit-learn", "XGBoost", "Model Tuning"],
