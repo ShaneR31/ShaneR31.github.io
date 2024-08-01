@@ -155,14 +155,6 @@
       "startDate": "2024-04-01",
       "endDate": "2024-05-15",
       "url": "https://shanereichlin.com/projects/fraud_detection_summary/"
-    },
-    {
-      "name": "Digital Marketing Conversion Analysis",
-      "summary": "Conducted a comprehensive analysis of digital marketing campaign data using XGBoost and K-Means clustering to optimize customer conversion strategies. Achieved high model performance through advanced feature engineering and hyperparameter tuning, providing actionable insights for targeted marketing.",
-      "highlights": ["Python", "Machine Learning", "Marketing Analytics", "XGBoost", "K-Means Clustering", "Feature Engineering"],
-      "startDate": "2024-01-01",
-      "endDate": "2024-02-15",
-      "url": "https://shanereichlin.com/projects/digital_marketing_campaign_analysis/"
     }
   ]
 }
