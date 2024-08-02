@@ -172,6 +172,11 @@ external_sources:
     posts:
       - url: https://medium.com/@reichlin.shane/how-does-machine-learning-prevent-credit-card-fraud-004f619af260
         published_date: 2024-07-14
+  - name: Credit Card Fraud
+    posts:
+      - url: https://medium.com/@reichlin.shane/understanding-customer-segmentation-a-data-driven-approach-9e64b6d57a54
+        published_date: 2024-08-02
+        
 
 # -----------------------------------------------------------------------------
 # Newsletter
