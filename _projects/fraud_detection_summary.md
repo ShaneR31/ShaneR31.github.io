@@ -2,7 +2,7 @@
 layout: page
 title: Credit Card Fraud Detection
 description: Curious about the technology behind fraud prevention? Uncover the machine learning algorithms that can help protect your financial data.
-img: assets/img/fraud_detection/atm.jpg
+img: assets/img/fraud_detection/card.png
 importance: 5
 category: 
 ---
@@ -51,7 +51,7 @@ category:
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fraud_detection/atm.jpg" title="ATM" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fraud_detection/cover.png" title="ATM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
