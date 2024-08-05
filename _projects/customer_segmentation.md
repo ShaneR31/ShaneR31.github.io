@@ -152,9 +152,11 @@ The dataset, available [here](https://www.kaggle.com/datasets/imakash3011/custom
 
 This customer segmentation analysis offers significant potential for businesses to enhance their marketing effectiveness. By understanding the distinct characteristics and behaviors of each customer segment, companies can tailor their strategies to improve key metrics such as campaign acceptance rates and targeted advertisement effectiveness. This targeted approach can lead to increased customer satisfaction, optimized resource allocation, and ultimately, higher conversion rates. By leveraging these insights, businesses can refine their marketing efforts, ensuring they reach the right audience with the right message, thereby maximizing their return on investment and fostering sustainable growth.
 
-[Breakdown](https://medium.com/@reichlin.shane/understanding-customer-segmentation-a-data-driven-approach-9e64b6d57a54)
 
-[Full Notebook](https://shanereichlin.com/customer-personality-analysis/notebooks/customer_personality_analysis.html)
+### Links
+- [Breakdown](https://medium.com/@reichlin.shane/understanding-customer-segmentation-a-data-driven-approach-9e64b6d57a54)
 
-[Repository](https://github.com/ShaneR31/customer-personality-analysis)
+- [Full Notebook](https://shanereichlin.com/customer-personality-analysis/notebooks/customer_personality_analysis.html)
+
+- [Repository](https://github.com/ShaneR31/customer-personality-analysis)
 
