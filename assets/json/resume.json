@@ -4,7 +4,7 @@
     "label": "Data Enthusiast",
     "image": "",
     "url": "https://shanereichlin.com",
-    "summary": "Master's Student at the Johns Hopkins Whiting School of Engineering with a background in cyber and strategic risk. Currently seeking full-time roles in data analytics and business intelligence.",
+    "summary": "Master's Student at the Johns Hopkins Whiting School of Engineering with a background in cybersecurity and business analysis.",
     "location": {
       "city": "Seattle",
       "countryCode": "US",
@@ -23,7 +23,7 @@
       "name": "WES Construction",
       "position": "Business Analyst",
       "url": "https://www.wes-construction.com/",
-      "startDate": "2023-11-01",
+      "startDate": "2023-09-28",
       "endDate": "",
       "summary": "Optimizing business operations through data analysis, financial reporting, and project cost evaluation. Focused on process improvement, stakeholder collaboration, and strategic decision-making to drive efficiency and profitability.",
       "highlights": []
@@ -57,7 +57,7 @@
       "startDate": "2024-01-01",
       "endDate": "",
       "score": "10",
-      "courses": ["Foundations of Software Engineering", "Foundations of Information Systems Engineering"]
+      "courses": ["Software Engineering", "Information Systems Engineering"]
     },
     {
       "institution": "University of Washington Foster School of Business",
@@ -68,7 +68,7 @@
       "startDate": "2018-09-21",
       "endDate": "2022-05-16",
       "score": "9",
-      "courses": ["Data Science Methods", "Business Data Analytics", "Database Management", "Systems Analysis and Design", "Information Assurance and Cybersecurity"]
+      "courses": ["Data Analytics", "Business Intelligence", "Machine Learning", "Predictive Analytics", "Statistical Modeling", "Database Management", "Cloud Computing"]
     }    
   ],
   "volunteer": [
@@ -103,30 +103,33 @@
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Data Analysis",
-        "Data Engineering",
-        "Business Analytics"
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "Excel"
       ]
     },
     {
-      "name": "Scripting",
+      "name": "Programming & Scripting",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Python",
         "SQL",
-        "R"
+        "R",
+        "Java"
       ]
     },
     {
-      "name": "Technical Tools",
+      "name": "Machine Learning",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Pandas",
         "Numpy",
-        "Excel",
-        "Tableau"
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib"
       ]
     },
     {
